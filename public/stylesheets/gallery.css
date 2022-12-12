@@ -1,0 +1,79 @@
+html {
+  font-family: verdana;
+  font-size: 15px;
+  color: black;
+}
+body {
+  background-color: palevioletred;
+  text-align: center;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 15%;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+a:hover {
+  color: white;
+}
+
+.tarsilaLogo {
+  width: 4vw;
+  height: 6vw;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 2.5rem;
+  color:white;
+}
+.firstPaintings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.abaporu {
+  width: 500px;
+  height: 700px;
+}
+.boneca {
+  width: 500px;
+  height: 700px;
+}
+.madureira {
+  width: 500px;
+  height: 700px;
+}
+.secPaintings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+
+}
+.mona {
+  width: 800px;
+  height: 600px;
+}
+.cuca {
+  width: 800px;
+  height: 600px;
+}

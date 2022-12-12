@@ -1,0 +1,57 @@
+html {
+    font-family: verdana;
+    font-size: 15px;
+    color: black;
+}
+body {
+    background-color: palevioletred;
+    text-align:center;
+}
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 60%;
+    align-items:center;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight:bolder;
+  }
+  a:hover {
+    color: white;
+  }
+  h1 {
+    font-size: 2rem;
+    color:white;
+  }
+   .tarsilaLogo {
+    width: 4vw;
+    height: 6vw;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  img {
+    width: 800px;
+    height: 50%;
+  }
+
+  .aboutContent p {
+    font-size: 1.2rem;
+    font-style:inherit;
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
