@@ -53,4 +53,111 @@ body {
   h2 {
     font-size: 1.2rem;
     color:black;
+    font-weight: lighter;
   }
+
+  /*about page*/ 
+
+  .aboutContent p {
+    font-size: 1.2rem;
+    font-style:inherit;
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  /* contact page*/
+  h3 {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  form {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: auto;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  input[type="text"] {
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #176b71;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #176b71;
+  }
+   /* gallery page*/
+
+.firstPaintings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.abaporu {
+  width: 500px;
+  height: 700px;
+}
+.boneca {
+  width: 500px;
+  height: 700px;
+}
+.madureira {
+  width: 500px;
+  height: 700px;
+}
+.secPaintings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+
+}
+.mona {
+  width: 800px;
+  height: 600px;
+}
+.cuca {
+  width: 800px;
+  height: 600px;
+}
+
+/* work page*/
+  .card img {
+    object-fit: cover;
+  }
+  .card h2 {
+    font-size: 1.5rem;
+    color:black;
+    font-weight: lighter;
+  }
+  .card p {
+    font-size: 1.2rem;
+    font-style:inherit;;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
