@@ -1,0 +1,94 @@
+html {
+  font-family: verdana;
+  font-size: 15px;
+  color: black;
+}
+body {
+  background-color: palevioletred;
+  text-align: center;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 15%;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+a:hover {
+  color: white;
+}
+
+.tarsilaLogo {
+  width: 4vw;
+  height: 6vw;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+h2 {
+  font-size: 1rem;
+  color: black;
+  font-weight: lighter;
+}
+h3 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+form {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  margin: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin: auto;
+}
+input[type="text"] {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #176b71;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #176b71;
+}

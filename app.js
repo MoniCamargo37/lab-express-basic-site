@@ -12,5 +12,7 @@ app.get('/work', (request, response, next) => {response.sendFile(__dirname + '/v
 //gallery route:
 app.get('/gallery', (request, response, next) => {response.sendFile(__dirname + '/views/gallery.html')});
 
+app.get('/contact', (request, response, next) => {response.sendFile(__dirname + '/views/contact.html')});
+
 // Server Started
 app.listen(3001, () => {console.log('My first app listening on port 3001 about a brazilian painter: http://localhost:3001')});
