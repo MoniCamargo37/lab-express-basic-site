@@ -34,6 +34,15 @@ const paintingsObject= {
   ]
 };
 
+const paintings = [
+  {class: 'abaporu', src: '/img/amaral-do-tarsila-abaporu.jpg', alt: 'Abaporu'},
+  {class: 'boneca', src: '/img/Aboneca1928.jpg', alt: 'A boneca'},
+  {class: 'madureira', src: '/img/carnaval-em-madureira.jpg', alt: 'Madureira'},
+  {class: 'mona', src: '/img/enelMoma.jpg', alt: 'Moma'},
+  {class: 'cuca', src: '/img/Acuca1924.jpg', alt: 'A cuca'},
+];
+
+
 //home route
 app.get('/', (req, res, next) => {res.status(200).render('home')
 });
@@ -41,7 +50,9 @@ app.get('/', (req, res, next) => {res.status(200).render('home')
 // about Route:
 app.get('/about', (request, response, next) =>{response.status(200).render('about')});
 //gallery route:
-app.get('/gallery', (request, response, next) => {response.status(200).render('gallery')});
+app.get('/gallery', (request, response, next) => {
+ 
+  response.status(200).render('gallery',paintings)});
 //contact Route
 app.get('/contact', (request, response, next) => {response.status(200).render('contact')
 });
@@ -53,5 +64,5 @@ app.get('/work', (request, response, next) => {
 
 
 // Server Started
-app.listen(3005, () => {console.log('My first app listening on port 3001 about a brazilian painter')});
+app.listen(3000, () => {console.log('My first app listening on port 3000 about a brazilian painter http://localhost:3000')});
 
