@@ -34,14 +34,6 @@ const paintingsObject= {
   ]
 };
 
-const paintings = [
-  {class: 'abaporu', src: '/img/amaral-do-tarsila-abaporu.jpg', alt: 'Abaporu'},
-  {class: 'boneca', src: '/img/Aboneca1928.jpg', alt: 'A boneca'},
-  {class: 'madureira', src: '/img/carnaval-em-madureira.jpg', alt: 'Madureira'},
-  {class: 'mona', src: '/img/enelMoma.jpg', alt: 'Moma'},
-  {class: 'cuca', src: '/img/Acuca1924.jpg', alt: 'A cuca'},
-];
-
 
 //home route
 app.get('/', (req, res, next) => {res.status(200).render('home')
@@ -52,7 +44,7 @@ app.get('/about', (request, response, next) =>{response.status(200).render('abou
 //gallery route:
 app.get('/gallery', (request, response, next) => {
  
-  response.status(200).render('gallery',paintings)});
+  response.status(200).render('gallery')});
 //contact Route
 app.get('/contact', (request, response, next) => {response.status(200).render('contact')
 });
